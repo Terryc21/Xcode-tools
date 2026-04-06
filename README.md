@@ -1,5 +1,7 @@
 # Xcode's Hidden CLI Tools
 
+![Visitors](https://komarev.com/ghpvc/?username=Terryc21&repo=Xcode-tools&label=visitors&color=blue) ![GitHub stars](https://img.shields.io/github/stars/Terryc21/Xcode-tools?style=flat) ![GitHub forks](https://img.shields.io/github/forks/Terryc21/Xcode-tools?style=flat)
+
 Xcode ships with **110 command-line tools** that most iOS developers never know exist. This repo documents all of them -- what they do, their Xcode GUI equivalent (if any), and real-world examples.
 
 ## How to find them on your Mac
