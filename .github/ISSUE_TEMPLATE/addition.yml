@@ -1,0 +1,39 @@
+name: Addition
+description: Suggest a missing tool, new category, or additional example
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of addition?
+      options:
+        - Missing tool (not currently in the list)
+        - New real-world example for an existing tool
+        - New category or section
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: tool
+    attributes:
+      label: Tool name (if applicable)
+      placeholder: xcrun tool name
+    validations:
+      required: false
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What to add
+      description: Describe the tool, example, or category. Include a working command line if you have one.
+    validations:
+      required: true
+
+  - type: input
+    id: xcode-version
+    attributes:
+      label: Xcode version you verified on
+      placeholder: Xcode 26.3
+    validations:
+      required: false
